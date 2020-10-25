@@ -11,6 +11,7 @@ How to Install project in eclipse:
 8. Also click Add Library and add TestNG. Click Apply and Close.
 9. Right Click on the project and go to Maven -> Update Project..
 10. Select everything except the first checkbox and press ok.
+11. Download from https://chromedriver.chromium.org/downloads chomedriver (select the same version as your installed chrome) and save it on C:\MyTools\webdriver
 
 In order to run it right navigate to src/main/resources and right click on DeusSuite.xml. Select run As TestNG Suite
 
