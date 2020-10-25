@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name = "Simple Logger Suite">
+   <listeners>
+      <listener class-name = "deus_automation.listener.CustomListener" />
+   </listeners>
+
+   <test name = "Simple Demo Test Case for Deus ex Machina">
+      <classes>
+         <class name = "deus_automation.testcase.TC_Demo" />
+      </classes>
+   </test>
+</suite>
